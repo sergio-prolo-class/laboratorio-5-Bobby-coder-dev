@@ -11,6 +11,19 @@ O projeto está organizado em pacotes para respeitar o encapsulamento e os modif
 - Interfaces: `Tripulada`, `Blindada`, `Autonoma`
 - Classe de aplicação: `App`
 
+## Estrutura de Pacotes
+
+- `ifsc.poo.naves.interfaces`
+  - `Autonoma.java`
+  - `Blindada.java`
+  - `Tripulada.java`
+- `ifsc.poo.naves.veiculos`
+  - `NaveCargueira.java`
+  - `NaveEspacial.java`
+  - `NaveExploradora.java`
+  - `NaveMineradora.java`
+- `App.java`
+
 ## Regras de Negócio
 
 1. Toda nave possui um identificador único gerado automaticamente, uma velocidade atual e uma velocidade máxima.
